@@ -1,0 +1,191 @@
+body{
+  text-align: center;
+  font-family: Open sans, sans-serif;
+  background-color:#e6e3d5;
+  color: rgb(83, 82, 82);
+  margin: auto;
+  padding: 0 5px; 
+}
+
+.titulo{
+  font-size: 30px;
+  margin-top:10px;
+  margin-bottom:80px;
+}
+
+section{
+  max-width:65%;
+  margin: 50px auto;
+  padding: 30px 0 5px;
+  background-color: #f2f1ed;
+}
+
+section section{
+  text-align: center;
+  max-width: 100%;
+  padding-top: 20px;
+  margin: 50px 0;
+}
+
+p{
+  padding-top:10px;
+  margin: auto;
+  max-width: 80%;
+  text-align: left;
+}
+
+h1{
+color: #555351;
+font-size: 30px;
+}
+
+h2{
+  color:#bfa165;
+  padding-bottom:6px; 
+  padding-top:6px;
+  background-color: #f8f7f6;
+  font-size: 1.8rem;
+}
+
+h3{
+  padding-top: 65px;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+h4{
+  padding-top: 50px;
+}
+
+
+ul{
+  list-style-type:none;
+  padding-left: -10px;
+  font-weight: 1;
+  min-width:500px;
+  max-width: 100%;
+  margin: auto;
+}
+
+li{
+  margin-top: 10px;
+  margin-left: 20px;
+  min-width: 250px;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color:#555351;
+}
+
+
+a:visited{
+  color:#bfa165;
+}
+
+.top-menu{
+
+  background-color:#f8f7f6;
+  max-width:65%;
+  word-spacing: 95px;
+  top:0;
+  padding:10px;
+  margin:0 auto;
+  
+}
+
+.top-menu li{
+  display: inline;
+  color:#bfa165;
+  font-weight:700;
+  font-size: 22px;
+  text-align: center;
+  
+}
+
+
+
+
+.lista{
+  list-style-type:disc;
+  text-align:left;
+  margin-left: -18px;
+  padding-left:148px;
+  padding-right:80px;
+  font-weight:1;
+  max-width: 80%;
+}
+
+.extras{
+  columns: 3;
+  list-style-type:disc;
+  text-align:left;
+  padding-left:148px;
+  font-weight:1;
+}
+
+
+ol li{
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right:80px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+img{
+  display: block;
+  margin: 30px auto 10px;
+  width: 55%;
+}
+
+.imgmenor{
+  margin:30px auto 10px;
+  width:30%;
+}
+
+.imgmaior{
+  width: 100%;
+}
+
+#imgmaior{
+  width: 80%
+}
+
+figcaption{
+  padding-top: 1px;
+  text-align: center;
+}
+
+
+#a-visited:visited{
+  color:pink;
+}
+
+#a-hover:hover{
+  color:pink;
+}
+
+form{
+  display: block;
+  background-color: #f8f7f6;
+  margin: 30px auto 10px;
+  padding: 40px;
+  word-spacing: 20px;
+
+}
+
+#topo{
+  font-size: 20px;
+  color:#bfa165;
+  background-color:#f8f7f6;
+  padding:5px;
+  position: fixed;
+  right:60px;
+  bottom:20px;
+  border-radius: 5px;
+  max-block-size: 200px;
+  text-align: center;
+
+}
